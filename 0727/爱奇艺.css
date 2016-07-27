@@ -1,0 +1,53 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.wrapper{
+	border: 1px solid #e4e4e4;
+	width: 640px;
+	padding: 17px 19px;
+	margin: 50px auto;
+}
+a,strong{
+	display: block;
+	color: black;
+}
+li{
+	float: left;
+}
+.top .ae img{
+	margin-right: 14px;
+}
+.top li{
+	line-height: 38px;
+	margin-right: 20px;
+}
+.top a{
+	line-height: 38px;
+}
+.top .ar{
+	padding-right: 18px;
+	background:no-repeat url(../images/bt02.png) 26px 16px;
+}
+.bottom{
+	padding-top: 7px;
+}
+.bottom strong{
+	line-height: 32px;
+}
+.bottom li{
+	margin-right: 20px;
+}
+.bottom .f5,.bottom .f10{
+	margin-right: 0px;
+}
+.bottom .f6,.bottom .f7,.bottom .f8,.bottom .f9,.bottom .f10{
+	margin-top: 10px;
+}
